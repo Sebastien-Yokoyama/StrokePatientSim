@@ -7495,6 +7495,52 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000010058284, y: -0.84880435, z: 0.05187164}
     m_Extent: {x: 0.12506765, y: 0.0893929, z: 0.07858139}
   m_DirtyAABB: 0
+--- !u!1 &5269766108282614241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3628738739648552330}
+  - component: {fileID: 2438305669085952820}
+  m_Layer: 0
+  m_Name: Rig 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3628738739648552330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269766108282614241}
+  m_LocalRotation: {x: -0, y: -0.8541567, z: 0, w: 0.5200158}
+  m_LocalPosition: {x: 12.163546, y: -0.0059907436, z: 8.408695}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5323108726579564679}
+  m_RootOrder: 82
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2438305669085952820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269766108282614241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Weight: 1
+  m_Effectors: []
 --- !u!1 &5315474974027782084
 GameObject:
   m_ObjectHideFlags: 0
@@ -9358,6 +9404,8 @@ GameObject:
   - component: {fileID: 6866012553795296847}
   - component: {fileID: 1072803296178204442}
   - component: {fileID: 7967364071143132627}
+  - component: {fileID: 7465241778623951146}
+  - component: {fileID: 1997791563521552529}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Untagged
@@ -9459,6 +9507,7 @@ Transform:
   - {fileID: 5313223110854651770}
   - {fileID: 5624965230403350878}
   - {fileID: 3425620456036273818}
+  - {fileID: 3628738739648552330}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9563,7 +9612,7 @@ MonoBehaviour:
     - {fileID: 5538217231761758886}
     - {fileID: 7784708052861483583}
   prefabPath: Assets/AdvancedPeopleSystem2/Prefabs/Doctor.prefab
-  instanceStatus: 1
+  instanceStatus: 5
   originHip: {fileID: 7338774766964082041}
   headHip: {fileID: 1561436391019349010}
   clothesAnchors:
@@ -9956,6 +10005,101 @@ LODGroup:
     - renderer: {fileID: 5692487870826444067}
     - renderer: {fileID: 258106758967829488}
   m_Enabled: 1
+--- !u!114 &7465241778623951146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946360846648032239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneShape: 1
+  drawBones: 1
+  drawTripods: 0
+  boneSize: 1
+  tripodSize: 1
+  boneColor: {r: 0, g: 0, b: 1, a: 0.5}
+  m_Transforms:
+  - {fileID: 4729877673677813423}
+  - {fileID: 2080041173911633879}
+  - {fileID: 1005972945457695144}
+  - {fileID: 519599026824936005}
+  - {fileID: 8959108388457882374}
+  - {fileID: 5799636271270343279}
+  - {fileID: 2121101969608554295}
+  - {fileID: 1561436391019349010}
+  - {fileID: 4810992348096608410}
+  - {fileID: 784253081789787307}
+  - {fileID: 9220965532369074349}
+  - {fileID: 4382682590251487871}
+  - {fileID: 7833557525643062525}
+  - {fileID: 391567012689529163}
+  - {fileID: 4481877211007746447}
+  - {fileID: 2306109681268646858}
+  - {fileID: 1299972928363387589}
+  - {fileID: 8966110056696186797}
+  - {fileID: 4753328417073218506}
+  - {fileID: 2887751692028487942}
+  - {fileID: 3524471409148351248}
+  - {fileID: 7283118492222753305}
+  - {fileID: 2800203163258508272}
+  - {fileID: 5616902358758070770}
+  - {fileID: 7919245414146961345}
+  - {fileID: 4751894571647160823}
+  - {fileID: 3126101453511910727}
+  - {fileID: 6056102082832548197}
+  - {fileID: 5464267829509340501}
+  - {fileID: 7713087717209667912}
+  - {fileID: 2993626785295023219}
+  - {fileID: 6313896673307969597}
+  - {fileID: 5174141354702949825}
+  - {fileID: 358777802478330777}
+  - {fileID: 3390377283680838972}
+  - {fileID: 2310408075688613532}
+  - {fileID: 5305072552308355385}
+  - {fileID: 9046491646851310843}
+  - {fileID: 7941725199821190780}
+  - {fileID: 4230594728351463809}
+  - {fileID: 2093502162828448726}
+  - {fileID: 5194583266456751938}
+  - {fileID: 4124166930499702338}
+  - {fileID: 176927094907826511}
+  - {fileID: 4443379260184823318}
+  - {fileID: 4378328123600295043}
+  - {fileID: 358946388034499294}
+  - {fileID: 3323388813707377115}
+  - {fileID: 5211060213297908055}
+  - {fileID: 2951192619099936562}
+  - {fileID: 4530583861435372458}
+  - {fileID: 1219089832204187210}
+--- !u!114 &1997791563521552529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946360846648032239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff0960ef4ea6e04eac66b4a7fd2189d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RigLayers:
+  - m_Rig: {fileID: 2438305669085952820}
+    m_Active: 1
+  m_Effectors:
+  - m_Transform: {fileID: 5323108726579564679}
+    m_Style:
+      shape: {fileID: 4300000, guid: c6793350c150f456688e39a81f97364a, type: 2}
+      color: {r: 1, g: 0, b: 0, a: 0.5}
+      size: 0.1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+    m_Visible: 1
 --- !u!1 &7061903640577509510
 GameObject:
   m_ObjectHideFlags: 0
