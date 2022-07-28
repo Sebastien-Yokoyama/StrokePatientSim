@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ad5a246955147924c9c5cd49778924e4
+=======
+guid: a18d6f5d4417ae04f9785a4939b9fbdf
+>>>>>>> Emergency-Room-Model-Branch
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

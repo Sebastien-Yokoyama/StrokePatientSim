@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3b466f726a322b64bbc511d58a9adda9
+=======
+guid: b9d619913b8dcd64ca493465db360d0d
+>>>>>>> Emergency-Room-Model-Branch
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

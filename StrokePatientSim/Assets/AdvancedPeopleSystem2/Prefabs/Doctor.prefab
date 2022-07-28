@@ -7495,6 +7495,37 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000010058284, y: -0.84880435, z: 0.05187164}
     m_Extent: {x: 0.12506765, y: 0.0893929, z: 0.07858139}
   m_DirtyAABB: 0
+--- !u!1 &5269766108282614241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3628738739648552330}
+  m_Layer: 0
+  m_Name: Rig 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3628738739648552330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269766108282614241}
+  m_LocalRotation: {x: -0, y: -0.8541567, z: 0, w: 0.5200158}
+  m_LocalPosition: {x: 12.163546, y: -0.0059907436, z: 8.408695}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5323108726579564679}
+  m_RootOrder: 82
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5315474974027782084
 GameObject:
   m_ObjectHideFlags: 0
@@ -9459,6 +9490,7 @@ Transform:
   - {fileID: 5313223110854651770}
   - {fileID: 5624965230403350878}
   - {fileID: 3425620456036273818}
+  - {fileID: 3628738739648552330}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9563,7 +9595,7 @@ MonoBehaviour:
     - {fileID: 5538217231761758886}
     - {fileID: 7784708052861483583}
   prefabPath: Assets/AdvancedPeopleSystem2/Prefabs/Doctor.prefab
-  instanceStatus: 1
+  instanceStatus: 5
   originHip: {fileID: 7338774766964082041}
   headHip: {fileID: 1561436391019349010}
   clothesAnchors:
